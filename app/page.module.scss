@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@200&display=swap');
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 6rem 6rem 6rem;
+  min-height: 100vh;
+}
+
+.menu {
+  height: 15rem;
+  width: var(--max-width);
+  margin: auto;
+  border-radius: 0 0 5px 5px;
+  font-family: var(--font-title);
+  font-size: 1.25em;
+  color: var(--creme);
+  background-color: var(--dark-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    margin: 2rem;
+  }
+
+  a:hover {
+    color: #bfbda4;
+  }
+}
+
+.picture {
+  width: 20rem;
+}
+
+
+.title {
+  padding-top: 10rem;
+}
+
+.subtitle {
+  padding-top: 1rem;
+}
+
+.description {
+  padding-top: 1rem;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 1.25rem;
+  max-width: 50vw;
+  width: 100%;
+  z-index: 2;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socialLinks {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+}
+
+.socials {
+  width: 20px;
+  margin-right: .5rem;
+}
