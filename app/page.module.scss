@@ -105,3 +105,52 @@
     font-size: 1.1rem;
   }
 }
+
+.contact {
+  padding-top: 3rem;
+  display: flex;
+  width: var(--max-width);
+  justify-content: space-evenly;
+
+  div {
+    padding-top: 3rem;
+    width: 30%;
+  }
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    padding: .5rem;
+    width: 22rem;
+  }
+  
+  label {
+    margin: 1rem 0;
+  }
+
+  textarea {
+    min-height: 10rem;
+  }
+
+  button {
+    background-color: var(--creme);
+    border: 1px solid var(--tan);
+    color: var(--tan);
+    font-family: var(--font-title);
+    font-size: 1rem;
+    border-radius: 3px;
+    align-self: center;
+    width: 6rem;
+    padding: 1rem;
+    margin: 2rem 0;
+  }
+  
+  button:hover {
+    background-color: var(--tan);
+    color: var(--creme);
+    border: none;
+  }
+}
