@@ -4,17 +4,13 @@
   --max-width: 80vw;
   --border-radius: 12px;
   --font-title: 'Noto Sans Sinhala', sans-serif;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
   --light-creme: #fffbf5;
   --creme: #FFF1DC;
   --dark-creme: #bfbda4;
-  --rose: #e5bc9d;
+  --tan: #cf9d72;
   --dark-grey: #2a3033;
+  --darker-grey: #00151f;
 }
-
-
 
 * {
   box-sizing: border-box;

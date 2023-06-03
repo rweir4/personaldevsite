@@ -3,17 +3,13 @@
 .main {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   align-items: center;
   padding: 0rem 6rem 6rem 6rem;
   min-height: 100vh;
 }
 
 .header {
-  background-color: var(--dark-grey);
-  width: var(--max-width);
-  margin: auto;
-  border-radius: 0 0 500px 500px;
+  background-color: var(--creme);
 }
 
 .navbar {
@@ -21,8 +17,7 @@
   margin: auto;
   font-family: var(--font-title);
   font-size: 1.25em;
-  color: var(--creme);
-  background-color: var(--dark-grey);
+  color: var(--tan);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,18 +52,15 @@
 
 .description {
   padding-top: 1rem;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
   font-size: 1.25rem;
   max-width: 50vw;
-  width: 100%;
-  z-index: 2;
 }
 
 .footer {
+  background-color: var(--creme);
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .socialLinks {
@@ -94,6 +86,22 @@
   }
 }
 
-.project_png {
-  width: 15rem;
+.about_pic {
+  width: 22rem;
+  height: 22rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.about {
+  display: flex;
+  width: var(--max-width);
+  justify-content: space-around;
+  padding-top: 3rem;
+
+  p {
+    width: 50%;
+    font-size: 1.1rem;
+  }
 }

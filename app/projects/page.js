@@ -1,7 +1,5 @@
 import styles from 'app/page.module.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-// import '@fortawesome/free-brands-svg-icons/styles.css'
+import Image from 'next/image'
 
 export default function Projects() {
   return (
@@ -9,7 +7,7 @@ export default function Projects() {
       <h1 className={styles.page_titles}>Projects</h1>
       <div className={styles.projects}>
         <div>
-          <img src='/computer.png' alt='computer' className={styles.project_png} />
+          <Image src='/computer.png' alt='computer' width='200' height='200'/>
           <h3>Developer Portfolio</h3>
           <a href='https://github.com/rweir4/personaldevsite' 
             alt='github-repo'
@@ -18,7 +16,7 @@ export default function Projects() {
           </a>
         </div>
         <div>
-          <img src='/calendlymock.png' alt='calendlymock' className={styles.project_png} />
+          <Image src='/calendlymock.png' alt='calendlymock' width='200' height='200'/>
           <h3>Calendly Mock</h3>
           <a href='https://github.com/rweir4/calendlymock' 
             alt='github-repo'
@@ -27,7 +25,7 @@ export default function Projects() {
           </a>
         </div>
         <div>
-          <img src='/dogwalk.png' alt='dogwalk' className={styles.project_png} />
+          <Image src='/dogwalk.png' alt='dogwalk' width='200' height='200'/>
           <h3>Dog Walk Tracker</h3>
           <a href='https://github.com/rweir4/dogwalktracker' 
             alt='github-repo'

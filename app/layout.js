@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         </header>
         {children}
         <footer className={styles.footer}>
+          <p>rebeccaweir12@gmail.com</p>
           <a href='https://www.linkedin.com/in/rebeccalweir/' className={styles.socialLinks}>
             <FontAwesomeIcon icon={faLinkedin} className={styles.socials}/>
             <p>LinkedIn</p>
