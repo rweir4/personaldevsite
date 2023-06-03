@@ -12,13 +12,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body>
-        <nav>
-          <niv className={styles.menu}>
+        <header className={styles.header}>
+          <img src='/brackets-rose.png' alt='brackets' className={styles.brackets}/>
+          <nav className={styles.navbar}>
             <a href='/'>Home</a>
             <a href='/projects'>Projects</a>
+            <a href='/blog'>Blog</a>
             <a href='/about'>About</a>
-          </niv>
-        </nav>
+            <a href='/contact'>Contact</a>
+          </nav>
+        </header>
         {children}
         <footer className={styles.footer}>
           <a href='https://www.linkedin.com/in/rebeccalweir/' className={styles.socialLinks}>

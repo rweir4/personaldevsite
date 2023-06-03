@@ -3,17 +3,22 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
   padding: 0rem 6rem 6rem 6rem;
   min-height: 100vh;
 }
 
-.menu {
-  height: 15rem;
+.header {
+  background-color: var(--dark-grey);
   width: var(--max-width);
   margin: auto;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 500px 500px;
+}
+
+.navbar {
+  width: 50%;
+  margin: auto;
   font-family: var(--font-title);
   font-size: 1.25em;
   color: var(--creme);
@@ -26,8 +31,15 @@
   }
 
   a:hover {
-    color: #bfbda4;
+    color: var(--dark-creme);
   }
+}
+
+.brackets {
+  width: 5rem;
+  display: block;
+  margin: auto;
+  padding-top: 2rem;
 }
 
 .picture {
@@ -68,4 +80,20 @@
 .socials {
   width: 20px;
   margin-right: .5rem;
+}
+
+.page_titles {
+  padding-top: 5rem;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  div {
+    padding: 5rem;
+  }
+}
+
+.project_png {
+  width: 15rem;
 }
