@@ -35,6 +35,12 @@ export default function DeveloperPortfolio() {
         <br /><br />
         Contact Page: will use a SendGrid API integration to implement a contact form
       </p>
+
+      <a href='https://github.com/rweir4/personaldevsite' 
+            alt='github-repo'
+            target="_blank">
+            Github Repo
+      </a>
     </main>
   )
 }

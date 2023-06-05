@@ -91,6 +91,18 @@
   }
 }
 
+.project_title {
+  position: relative;
+  top: -45px;
+  left: 15px;
+  color: white;
+}
+
+.highlight:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
 .about_pic {
   width: 22rem;
   height: 22rem;
