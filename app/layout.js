@@ -1,4 +1,4 @@
-import './globals.css'
+import './globals.scss'
 import styles from './page.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -17,9 +17,7 @@ export default function RootLayout({ children }) {
           <nav className={styles.navbar}>
             <a href='/'>Home</a>
             <a href='/projects'>Projects</a>
-            <a href='/blog'>Blog</a>
             <a href='/about'>About</a>
-            <a href='/contact'>Contact</a>
           </nav>
         </header>
         {children}

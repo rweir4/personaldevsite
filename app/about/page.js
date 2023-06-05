@@ -14,7 +14,7 @@ export default function About() {
           <br />
           My previous work as a developer includes implementing and updating
            payments systems, authorization, and subscriptions, to name a few,
-          and am always open to working in new areas.<br />
+          and I am always open to working in new areas.<br />
           <br />
           I take pride in working on both small and large scales,
            with both design and product goals in mind,

@@ -7,8 +7,10 @@ export default function Projects() {
       <h1 className={styles.page_titles}>Projects</h1>
       <div className={styles.projects}>
         <div>
-          <Image src='/computer.png' alt='computer' width='200' height='200'/>
-          <h3>Developer Portfolio</h3>
+          <a href='projects/developer-porfolio'>
+            <Image src='/computer.png' alt='computer' width='200' height='200'/>
+            <h3>Developer Portfolio</h3>
+          </a>
           <a href='https://github.com/rweir4/personaldevsite' 
             alt='github-repo'
             target="_blank">

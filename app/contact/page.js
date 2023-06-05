@@ -4,22 +4,30 @@ export default function Contact() {
   return (
     <main className={styles.main}>
       <div className={styles.contact}>
-        <div>
+        <div className={styles.chat}>
           <h1 className={styles.page_titles}>Let's Chat</h1>
           <p>If you're interested in working with me, feel free to send me a message. I'd love to talk with you!</p>
         </div>
         <form action="/send-data-here" method="post" className={styles.email}>
-          <label for="first">First name:</label>
-          <input type="text" id="first" name="first" />
+          <div className={styles.form_info}>
+            <div>
+              <label for="first">First Name:</label>
+              <input type="text" id="first-name" name="first-name" placeholder='First Name'/>
+            </div>
+            <div>
+              <label for="last">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" placeholder='Last Name'/>
+            </div>
+          </div>
 
-          <label for="last">Last name:</label>
-          <input type="text" id="last" name="last" />
+          <label for="last">Subject:</label>
+          <input type="text" id="subject" name="subject" placeholder='Subject'/>
 
           <label for="last">Email:</label>
-          <input type="text" id="email" name="email" />
+          <input type="text" id="email" name="email" placeholder='Email'/>
 
           <label for="last">Message:</label>
-          <textarea type="text" id="message" name="message" />
+          <textarea type="text" id="message" name="message" placeholder='Message'/>
           
           <button type="submit">Send</button>
         </form>
