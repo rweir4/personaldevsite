@@ -206,3 +206,17 @@
   width: 40rem;
   padding: 3rem 0;
 }
+
+.github_link {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: 1px solid var(--tan);
+  border-radius: 3px;
+  background-color: var(--creme);
+  color: var(--tan);
+
+  &:hover {
+    background-color: var(--tan);
+    color: var(--creme);
+  }
+}

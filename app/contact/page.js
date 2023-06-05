@@ -5,8 +5,8 @@ export default function Contact() {
     <main className={styles.main}>
       <div className={styles.contact}>
         <div className={styles.chat}>
-          <h1 className={styles.page_titles}>Let's Chat</h1>
-          <p>If you're interested in working with me, feel free to send me a message. I'd love to talk with you!</p>
+          <h1 className={styles.page_titles}>Let&apos;s Chat</h1>
+          <p>If you&apos;re interested in working with me, feel free to send me a message. I would love to talk with you!</p>
         </div>
         <form action="/send-data-here" method="post" className={styles.email}>
           <div className={styles.form_info}>

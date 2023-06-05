@@ -1,7 +1,7 @@
 import './globals.scss'
 import styles from './page.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export const metadata = {
   title: 'Rebecca Leigh Weir',
@@ -23,7 +23,11 @@ export default function RootLayout({ children }) {
         {children}
         <footer className={styles.footer}>
           <p>rebeccaweir12@gmail.com</p>
-          <a href='https://www.linkedin.com/in/rebeccalweir/' className={styles.socialLinks}>
+          <a href='https://github.com/rweir4' className={styles.socialLinks} target='_blank'>
+            <FontAwesomeIcon icon={faGithub} className={styles.socials}/>
+            <p>Github</p>
+          </a>
+          <a href='https://www.linkedin.com/in/rebeccalweir/' className={styles.socialLinks} target='_blank'>
             <FontAwesomeIcon icon={faLinkedin} className={styles.socials}/>
             <p>LinkedIn</p>
           </a>
