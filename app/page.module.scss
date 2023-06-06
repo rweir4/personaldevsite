@@ -8,7 +8,7 @@
   section {
     scroll-behavior: smooth;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100vw;
     height: 90vh;
     
@@ -103,14 +103,10 @@
 
 .professional {
   align-items: center;
-  
-  h3 {
-    display: block;
-    font-size: 2rem;
-  }
 
   img {
-    width: 20rem;
+    width: 35rem;
+    height: 15rem;
   }
 }
 
@@ -263,4 +259,35 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.skills {
+  padding: 5rem 0 0 0;
+  width: 50rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  p {
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    background-color: var(--tan);
+    color: var(--creme);
+  }
+}
+
+.about_title {
+  padding-top: 5rem;
+}
+
+.bio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  h2 {
+    text-align: center;
+  }
 }
