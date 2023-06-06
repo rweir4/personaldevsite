@@ -6,8 +6,8 @@ export default function About() {
     <main className={styles.main}>
       <h1 className={styles.page_titles}>About</h1>
       <div className={styles.about}>
-        <Image src='/ginny-and-me.png' alt='Rebecca Weir' width='300' height='300'
-          className={styles.about_pic} loading='eager'/>
+        <img src='/ginny-and-me.png' alt='Rebecca Weir' width='300' height='300'
+          className={styles.about_pic} />
         <p>
           I am a fullstack developer with almost five years of experience,
           primarily working in a stack of Ruby on Rails and Javascript,
