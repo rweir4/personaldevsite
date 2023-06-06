@@ -12,14 +12,16 @@ export default function Projects() {
         </a>
       </section>
       <section id='professional' className={styles.professional}>
-        <a href='projects/vimeo'>
-          <img src='vimeo.jpeg' alt='vimeo' className={styles.highlight} />
-          <h3 className={styles.project_title}>Vimeo, Inc.</h3>
-        </a>
-        <a href='projects/medidata'>
-          <img src='/medidata.png' alt='medidata' className={styles.highlight} />
-          <h3 className={styles.project_title}>Medidata Solutions, A Dassault Systemes Company</h3>
-        </a>
+        <div className={styles.oval}>
+          <a href='projects/vimeo'>
+            <img src='vimeo.jpeg' alt='vimeo' className={styles.highlight} />
+            <h3 className={styles.project_title}>Vimeo, Inc.</h3>
+          </a>
+          <a href='projects/medidata'>
+            <img src='/medidata.png' alt='medidata' className={styles.highlight} />
+            <h3 className={styles.project_title}>Medidata Solutions, A Dassault Systemes Company</h3>
+          </a>
+        </div>
       </section>
       <section>
         <h2>Personal</h2>
@@ -28,21 +30,23 @@ export default function Projects() {
         </a>
       </section>
       <section id='personal' className={styles.projects}>
-        <a href='projects/developer_porfolio'>
-          <img src='/keyboard.jpg' alt='computer' width='250' height='350' 
-            className={styles.highlight} />
-          <h3 className={styles.project_title}>Developer Portfolio</h3>
-        </a>
-        <a href='projects/calendly_mock'>
-          <img src='/calendly.jpg' alt='calendlymock' width='250' height='350'
-            className={styles.highlight} />
-          <h3 className={styles.project_title}>Calendly Mock</h3>
-        </a>
-        <a href='projects/park'>
-          <img src='/park.jpg' alt='dogwalk' width='250' height='350'
-            className={styles.highlight} />
-          <h3 className={styles.project_title}>Park Features</h3>
-        </a>
+        <div className={styles.oval}>
+          <a href='projects/developer_porfolio'>
+            <img src='/keyboard.jpg' alt='computer' width='250' height='350' 
+              className={styles.highlight} />
+            <h3 className={styles.project_title}>Developer Portfolio</h3>
+          </a>
+          <a href='projects/calendly_mock'>
+            <img src='/calendly.jpg' alt='calendlymock' width='250' height='350'
+              className={styles.highlight} />
+            <h3 className={styles.project_title}>Calendly Mock</h3>
+          </a>
+          <a href='projects/park'>
+            <img src='/park.jpg' alt='dogwalk' width='250' height='350'
+              className={styles.highlight} />
+            <h3 className={styles.project_title}>Park Features</h3>
+          </a>
+        </div>
       </section>
     </main>
   )
