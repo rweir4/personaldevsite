@@ -7,7 +7,8 @@ export default function Park() {
       <p className={styles.project_about}>
         The app for dog walkers who want to know what they&apos;re walking into.
         <br /><br />
-        The app is in its initial design stages.
+        The app is in its initial design stages. I am creating a system design for a large scale version of the app,
+        but will only be implementing the MVP.
         <br /><br />
         MVP: List of nearby parks with map, and type of park
         <br /><br />
