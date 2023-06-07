@@ -39,6 +39,7 @@ export default function About() {
       <a href='/rebecca_weir_resume.pdf' alt='resume' target='_blank' rel="noopener noreferrer"
         className={styles.resume}>Download Resume</a>
       <FontAwesomeIcon icon={faAngleDown} className={styles.arrow_icon}/>
+      <br />
       <div className={styles.bio}>
         <h2 className={styles.about_title}>Personal Bio</h2>
         <div className={styles.about}>

@@ -10,22 +10,34 @@ export default function DeveloperPortfolio() {
       This website, which acts as my developer portfolio, is built using NextJS 13, and React 18, and Sass.
       <br /><br />
       This is my first NextJS project, and I chose to use it because of its quick development to production time,
-      particularly for static sites, for which there is no need to manage a database.
+      since things like webpack do not need to be configured in order to develop. There is also no need for a database,
+      which makes the alternative I would consider, Ruby on Rails, to be overkill.
       <br /><br />
-      NextJS is built for customizability, but only as much as you want. This app is mostly a few basic routes,
-      determined by the file structure.
-      <br /><br />
-      I have found it to be a general rule of thumb that where ReactJS is explicit, NextJS is often implicit.
-      <br /><br />
-      Furthermore, Server Side Rendering is very similar to Client Side Rendering, that is, until you need a responsive UI.
-      With the current feature list for the portfolio site, it is not necessary to use any client components, but that will
-      change with the introduction of other features. As is, any changes to the UI are handled using CSS.
-      <br /><br /><br />
+      <h2>Project Design</h2>
+      <br />
+      Routes, determined by the NextJS file structure.
+      <table>
+        <tr><td>/home</td></tr>
+        <tr><td>/projects</td></tr>
+        <tr><td>/projects/vimeo</td></tr>
+        <tr><td>/projects/medidata</td></tr>
+        <tr><td>/projects/developer_portfolio</td></tr>
+        <tr><td>/projects/calendly_mock</td></tr>
+        <tr><td>/projects/parks</td></tr>
+        <tr><td>/about</td></tr>
+      </table>
+      {/* wireframes */}
+      {/* MVP */}
+      {/* feature list */}
+      {/* To run locally */}
+      <br />
       <h2>Next Steps</h2>
+      Server Side Rendering is very similar to Client Side Rendering, until you need a responsive UI, in which case
+      client components are needed. With the current feature list for the portfolio site, it is not necessary to use any client components, but that will change with the introduction of other features. As is, any changes to the UI are handled using CSS.
       <br /><br />
       I will continue to iterate on this site, adding the following, in order:
       <br /><br />
-      <strong>Blog Page:</strong> will track my personal projects, which will also be showcased on the Projects page
+      <strong>Blog Page:</strong> will track my personal projects and studies, which will also be showcased on the Projects page
       <br /><br />
       <strong>Contact Page:</strong> will use a SendGrid API integration to implement a contact form
       <br /><br />
