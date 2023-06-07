@@ -3,6 +3,7 @@ import styles from 'app/page.module.scss';
 export default function Vimeo() {
   return (
     <main className={styles.main}>
+      <img src='/vimeo.png' alt='vimeo logo' width='400' />
       <h1 className={styles.page_titles}>Vimeo, Inc.</h1>
       <p className={styles.project_about}>
         <h2>Notable Projects</h2>
@@ -13,7 +14,7 @@ export default function Vimeo() {
           </p>
           <h3>Multi-Tier Subscriptions</h3>
           <p>Assisted with the introduction and implementation of a multi-tier subscriber system,
-            which allowed access to sets of features, determined by a user's tier. This required
+            which allowed access to sets of features, determined by user tier. This required
             access control at various levels, as well as both a business logic and frontend redesign.
           </p>
           <h3>Reactified User Account Settings Page</h3>

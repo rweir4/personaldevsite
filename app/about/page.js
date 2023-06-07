@@ -33,7 +33,7 @@ export default function About() {
       <h2 className={styles.about_title}>Skills and Resume</h2>
       <div className={styles.skills}>
         {skills.map((skill) => {
-          return (<p>{skill}</p>);
+          return (<p key='skill'>{skill}</p>);
         })}
       </div>
       <a href='/rebecca_weir_resume.pdf' alt='resume' target='_blank' rel="noopener noreferrer"
