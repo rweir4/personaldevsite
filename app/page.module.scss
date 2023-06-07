@@ -163,10 +163,11 @@
 }
 
 .about {
+  background-color: var(--teal);
   display: flex;
   width: var(--max-width);
   justify-content: space-around;
-  padding-top: 3rem;
+  padding: 5rem;
 
   p {
     width: 50%;
@@ -296,18 +297,7 @@
 }
 
 .about_title {
-  padding-top: 5rem;
-}
-
-.bio {
-  background-color: var(--teal);
-  width: 100vw;
-  height: 75vh;
-  margin: auto;
-  
-  h2 {
-    text-align: center;
-  }
+  padding: 2rem 0 1rem 0;
 }
 
 .resume {
@@ -320,3 +310,5 @@
     border: 1px solid var(--tan);
   }
 }
+
+// mediaaaaa
