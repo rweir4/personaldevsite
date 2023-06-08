@@ -17,12 +17,12 @@ export default function About() {
     'Selenium',
     'Systems Design',
     'Jest',
-    'New Relic',
     'SQL',
     'CI and Version Control',
     'SumoLogic',
     'Agile Framework',
     'AWS: S3, ECS & EC2',
+    'New Relic',
     'Technical Project Management',
     'Performance Evaluation and Optimization',
     'Technical Writing & Project Documentation',
@@ -33,15 +33,17 @@ export default function About() {
       <h2 className={styles.about_title}>Skills and Resume</h2>
       <div className={styles.skills}>
         {skills.map((skill) => {
-          return (<p key='skill'>{skill}</p>);
+          return (<div key='skill'>{skill}</div>);
         })}
       </div>
       <a href='/rebecca_weir_resume.pdf' alt='resume' target='_blank' rel="noopener noreferrer"
         className={styles.resume}>Download Resume</a>
       <h2 className={styles.about_title}>Personal Bio</h2>
-      <FontAwesomeIcon icon={faAngleDown} className={styles.arrow_icon}/>
+      <a href='#about'>
+        <FontAwesomeIcon icon={faAngleDown} className={styles.arrow_icon}/>
+      </a>
       <br />
-      <div className={styles.about}>
+      <div id='about' className={styles.about}>
         <img src='/ginny-and-me.png' alt='Rebecca Weir' width='300' height='300'
           className={styles.about_pic} />
         <p>

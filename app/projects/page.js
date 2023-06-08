@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import styles from 'app/page.module.scss'
 
 export default function Projects() {
@@ -8,7 +8,7 @@ export default function Projects() {
       <section>
         <h2>Professional</h2>
         <a href='#professional' className={styles.arrow_icon}>
-          <FontAwesomeIcon icon={faAngleDown} />
+          <FontAwesomeIcon icon={faChevronDown} />
         </a>
       </section>
       <section id='professional' className={styles.professional}>
@@ -22,7 +22,7 @@ export default function Projects() {
       <section>
         <h2>Personal</h2>
         <a href='#personal' className={styles.arrow_icon}>
-          <FontAwesomeIcon icon={faAngleDown} />
+          <FontAwesomeIcon icon={faChevronDown} />
         </a>
       </section>
       <section id='personal' className={styles.projects}>
