@@ -26,14 +26,21 @@
   
   section:nth-child(odd) {    
     height: 90vh;
-    background-image: linear-gradient(var(--creme), var(--teal));
     flex-direction: column;
     background-color: var(--creme);
     color: var(--tan);
   }
       
   section:nth-child(even) {
+    background-image: linear-gradient(var(--creme), var(--teal));
+  }
+  
+  section:nth-child(3) {
     background-color: var(--teal);
+  }
+  
+  section:nth-child(4) {
+    background-image: linear-gradient(var(--teal), var(--creme));
   }
 }
 
