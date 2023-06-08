@@ -3,7 +3,7 @@ import styles from 'app/page.module.scss';
 export default function Vimeo() {
   return (
     <main className={styles.main}>
-      <img src='/vimeo.png' alt='vimeo logo' width='400' />
+      <img src='/vimeo.png' alt='vimeo logo' className={styles.logo} />
       <h1 className={styles.page_titles}>Vimeo, Inc.</h1>
       <p className={styles.project_about}>
         <h2>Notable Projects</h2>
