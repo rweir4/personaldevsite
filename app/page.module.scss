@@ -298,6 +298,12 @@
     border-radius: 10rem;
     background-color: var(--tan);
     color: var(--creme);
+    border: 1px solid var(--tan);
+
+    &:hover {
+      background-color: var(--creme);
+      color: var(--tan);
+    }
   }
 }
 

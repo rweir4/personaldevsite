@@ -9,7 +9,7 @@ export default function Vimeo() {
         <h2>Notable Projects</h2>
         <div className={styles.professional_projects}>
           <h3>Subscriptions Redesign</h3>
-          <p>Worked on a redesign and implementation of the subscription system using a state machine,
+          <p>Worked on a redesign and implementation of the subscription system 
             to allow for improved consistency thereby reducing payments issues.
           </p>
           <h3>Multi-Tier Subscriptions</h3>
@@ -18,7 +18,7 @@ export default function Vimeo() {
             access control at various levels, as well as both a business logic and frontend redesign.
           </p>
           <h3>Reactified User Account Settings Page</h3>
-          <p>Modernized the technical and visual design of the user account settings page, using
+          <p>By working closely with designers, I worked to modernize the technical and visual design of the user account settings page, using
             the most modern React technologies.
           </p>
           <h3>Documentation System</h3>
