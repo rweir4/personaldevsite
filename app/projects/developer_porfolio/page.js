@@ -15,7 +15,7 @@ export default function DeveloperPortfolio() {
       <br /><br />
       <h2>Project Design</h2>
       <br />
-      Routes, determined by the NextJS file structure.
+      <h3>Routes</h3>
       <table>
         <tr><td>/home</td></tr>
         <tr><td>/projects</td></tr>
@@ -26,10 +26,20 @@ export default function DeveloperPortfolio() {
         <tr><td>/projects/parks</td></tr>
         <tr><td>/about</td></tr>
       </table>
-      {/* wireframes */}
-      {/* MVP */}
-      {/* feature list */}
-      {/* To run locally */}
+      <br />
+      <h3>Wireframes</h3>
+      To be added (being digitized).
+      <br /><br />
+      <h3>MVP</h3>
+      <p>List professional and personal projects and their design, features,
+        and any available code.
+      </p>
+      <br />
+      <h3>To run locally</h3>
+      <code>git clone git@github.com:rweir4/personaldevsite.git</code><br />
+      <code>npm i</code><br />
+      <code>npm run dev</code><br />
+      <p>Open http://localhost:3000 with your browser to see the result.</p>
       <br />
       <h2>Next Steps</h2>
       Server Side Rendering is very similar to Client Side Rendering, until you need a responsive UI, in which case
