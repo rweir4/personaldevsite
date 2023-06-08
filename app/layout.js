@@ -14,7 +14,9 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body>
         <header id='header' className={styles.header}>
-          <img src='/brackets-rose.png' alt='brackets' className={styles.brackets}/>
+          <a href='/'>
+            <img src='/brackets-rose.png' alt='brackets' className={styles.brackets}/>
+          </a>
           <nav className={styles.navbar}>
             <a href='/'>Home</a>
             <a href='/projects'>Projects</a>
