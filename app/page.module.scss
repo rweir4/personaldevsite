@@ -20,7 +20,7 @@
     }
 
     @media screen and (max-width: 900px) {
-      min-height: 65rem;
+      min-height: 65%;
     }
   }
   
@@ -32,6 +32,7 @@
     color: var(--tan);
     
     @media screen and (max-width: 900px) {
+      height: 80vh;
       h2 {
         font-size: 3rem;
       }
@@ -142,7 +143,7 @@
 
     img {
       padding: 0;
-      width: 100%;
+      width: 80%;
     }
   }
 }
@@ -189,6 +190,11 @@
   top: -45px;
   left: 15px;
   color: white;
+
+  @media screen and (max-width: 900px) {
+    top: -50px;
+    left: 25px;
+  }
 }
 
 .highlight:hover {
@@ -224,6 +230,7 @@
   }
 
   @media screen and (max-width: 900px) {
+    padding: 1.5rem;
     flex-direction: column;
 
     p {
@@ -363,7 +370,7 @@
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 60rem) {
     width: 20rem;
     
     p {
@@ -384,6 +391,7 @@
   padding: 1rem;
   border: 1px solid var(--teal);
   border-radius: 10rem;
+  text-align: center;
 
   &:hover {
     border: 1px solid var(--tan);
