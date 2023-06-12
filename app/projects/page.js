@@ -31,16 +31,16 @@ export default function Projects() {
             className={styles.highlight} loading='eager'/>
           <h3 className={styles.project_title}>Developer Portfolio</h3>
         </a>
-        <a href='projects/calendly_mock'>
+        {/* <a href='projects/calendly_mock'>
           <img src='/calendly.jpg' alt='calendlymock'
             className={styles.highlight} loading='eager'/>
           <h3 className={styles.project_title}>Calendly Mock</h3>
-        </a>
-        <a href='projects/park'>
+        </a> */}
+        {/* <a href='projects/park'>
           <img src='/park.jpg' alt='dogwalk'
             className={styles.highlight} loading='eager'/>
           <h3 className={styles.project_title}>Park Features</h3>
-        </a>
+        </a> */}
       </section>
     </main>
   )
