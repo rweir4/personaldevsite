@@ -5,6 +5,10 @@
   padding: 0rem 6rem 6rem 6rem;
   min-height: 100vh;
 
+  // @media screen and (max-width: 900px) {
+  //   padding: 0;
+  // }
+
   section {
     scroll-behavior: smooth;
     display: flex;

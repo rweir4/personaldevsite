@@ -26,9 +26,6 @@ export default function DeveloperPortfolio() {
         <tr><td>/projects/parks</td></tr>
         <tr><td>/about</td></tr>
       </table>
-      <br />
-      <h3>Wireframes</h3>
-      To be added (being digitized).
       <br /><br />
       <h3>MVP</h3>
       <p>List professional and personal projects and their design, features,
