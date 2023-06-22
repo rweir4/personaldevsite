@@ -5,7 +5,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function About() {
   const skillsList = {
-    'Languages and Frameworks' : [
+    'Languages' : [
       'SQL',
       'Ruby',
       'Javascript',
