@@ -4,36 +4,57 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function About() {
-  const skills = [
-    'Ruby on Rails',
-    'Javascript',
-    'JQuery',
-    'NextJS',
-    'ReactJS',
-    'Redux',
-    'HTML/CSS',
-    'TDD & BDD',
-    'Cucumber',
-    'Selenium',
-    'Systems Design',
-    'Jest',
-    'SQL',
-    'CI and Version Control',
-    'SumoLogic',
-    'Agile Framework',
-    'AWS: S3, ECS & EC2',
-    'New Relic',
-    'Technical Project Management',
-    'Performance Evaluation and Optimization',
-    'Technical Writing & Project Documentation',
-  ]
+  const skillsList = {
+    'Languages and Frameworks' : [
+      'SQL',
+      'Ruby',
+      'Javascript',
+      'HTML/CSS',
+    ],
+    'Frameworks': [
+      'Rails',
+      'JQuery',
+      'NextJS',
+      'ReactJS',
+      'Redux',
+    ],
+    'Systems' : [ 
+      'Systems Design',
+      'AWS: S3, ECS & EC2',
+      'CI and Version Control',
+      'SumoLogic',
+      'New Relic',
+    ],
+    'Testing' : [
+      'TDD & BDD',
+      'Cucumber',
+      'Selenium',
+      'Jest',
+    ],
+    'Management' : [
+      'Agile Framework',
+      'Technical Project Management',
+      'Performance Evaluation and Optimization',
+      'Technical Writing & Project Documentation',
+    ]
+  }
+
 
   return (
     <main className={styles.main}>
       <h2 className={styles.about_title}>Skills and Resume</h2>
       <div className={styles.skills}>
-        {skills.map((skill) => {
-          return (<div key='skill'>{skill}</div>);
+        {Object.keys(skillsList).map(skill => {
+          return (
+            <div className={styles.skill_list}>
+              <h3>{skill}</h3>
+              <div>
+                {skillsList[skill].map(indie_skill => {
+                  return (<div className={styles.indie_skill}>{indie_skill}</div>);
+                })}
+              </div>
+            </div>
+          )
         })}
       </div>
       <a href='/rebecca_weir_resume.pdf' alt='resume' target='_blank' rel="noopener noreferrer"
