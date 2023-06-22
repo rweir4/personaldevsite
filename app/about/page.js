@@ -50,7 +50,7 @@ export default function About() {
               <h3>{skill}</h3>
               <div>
                 {skillsList[skill].map(indie_skill => {
-                  return (<div className={styles.indie_skill}>{indie_skill}</div>);
+                  return (<div className={styles.indie_skill} key={indie_skill}>{indie_skill}</div>);
                 })}
               </div>
             </div>

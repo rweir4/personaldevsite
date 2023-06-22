@@ -12,10 +12,10 @@ export default function Projects() {
         </a>
       </section>
       <section id='professional' className={styles.professional}>
-        <a href='projects/medidata'>
+        <a href='projects/medidata' className={styles.project_button}>
           <img src='/medidata.webp' alt='medidata' className={styles.highlight} />
         </a>
-        <a href='projects/vimeo'>
+        <a href='projects/vimeo' className={styles.project_button}>
           <img src='vimeo.png' alt='vimeo' className={styles.highlight} />
         </a>        
       </section>
