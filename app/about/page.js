@@ -46,11 +46,15 @@ export default function About() {
       <div className={styles.skills}>
         {Object.keys(skillsList).map(skill => {
           return (
-            <div className={styles.skill_list}>
+            <div className={styles.skill_list} key={skill}>
               <h3>{skill}</h3>
               <div>
                 {skillsList[skill].map(indie_skill => {
-                  return (<div className={styles.indie_skill} key={indie_skill}>{indie_skill}</div>);
+                  return (
+                    <div className={styles.indie_skill} key={indie_skill}>
+                      {indie_skill}
+                    </div>
+                  );
                 })}
               </div>
             </div>
