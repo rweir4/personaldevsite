@@ -30,6 +30,11 @@ export default function Projects() {
           <img src='/keyboard.jpg' alt='computer'  
             className={styles.highlight} loading='eager'/>
           <h3 className={styles.project_title}>Developer Portfolio</h3>
+        </a>        
+        <a href='projects/ginnyandcoMock'>
+          <img src='/park.jpg' alt='park'  
+            className={styles.highlight} loading='eager'/>
+          <h3 className={styles.project_title}>Ginny and Co. Brand Shop</h3>
         </a>
       </section>
     </main>
