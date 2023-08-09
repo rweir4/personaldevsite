@@ -6,32 +6,18 @@ export default function Vimeo() {
       <img src='/vimeo.png' alt='vimeo logo' className={styles.logo} />
       <h1 className={styles.page_titles}>Vimeo, Inc.</h1>
       <p className={styles.project_about}>
-        <h2>Notable portfolio</h2>
         <div className={styles.professional_portfolio}>
-          <h3>Subscriptions Redesign</h3>
-          <p>Worked on a redesign and implementation of the subscription system 
-            to allow for improved consistency thereby reducing payments issues.
-          </p>
-          <h3>Multi-Tier Subscriptions</h3>
-          <p>Assisted with the introduction and implementation of a multi-tier subscriber system,
-            which allowed access to sets of features, determined by user tier. This required
-            access control at various levels, as well as both a business logic and frontend redesign.
-          </p>
-          <h3>Reactified User Account Settings Page</h3>
-          <p>By working closely with designers, I worked to modernize the technical and visual design of the user account settings page, using
-            the most modern React technologies.
-          </p>
-          <h3>Documentation System</h3>
-          <p>Introduced and wrote documentation (and its format) for the main systems related to payments and subscriptions,
-            which acts as a both a technical and human readable guide for not only the developers, but
-            any test engineers, design, or product that needs to understand the system on a more technical level.
-          </p>
-          <h3>Payments</h3>
-          <p>Worked on a variety of payments features and issues to improve the workflow, which included
-            optimizing various app as well as stripe integrations.
-          </p>
-          <h3>Study Abroad</h3>
-          <p>Spend two months on an adjacent team, working on various video playback features.</p>
+        <p>Released large full-stack payment and subscriber features through continuous deployment.</p>       
+        <p>Redesigned subscription system to track a subscription across events using a state machine.</p>     
+        <p>Designed and added multi-tier capabilities to subscriptions and videos, which required documenting the subscription workflow and simplifying nested logic.</p>      
+        <p>Redesigned subscription system to track a subscription across events using a state machine.</p>
+        <p>Designed and added multi-tier capabilities to subscriptions and videos, which required documenting the subscription workflow and simplifying nested logic.</p>
+        <p>Resolved inconsistencies in integrations with In App Purchases, such as with the Google Play Authenticator.</p>
+        <p>Modernized user account settings page and migrated from Haml to React using hooks.</p>
+        <p>Updated Stripe integration to process transactions for coupons and free products.</p>
+        <p>Separated the video player experience workflow to account for user types, and therefore different access levels.</p>
+        <p>Remodeled approach to project breakdowns, reducing our time-to-completion rate.</p>
+        <p>Proposed and implemented documentation system for engineers, designers, and product owners alike.</p>
         </div>
       </p>
     </main>

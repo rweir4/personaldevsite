@@ -23,10 +23,10 @@ export default function Freelance() {
     <div>
       <div className={styles.freelance_project}>
         <div>
-          <h3 className={styles.freelance_project_title}>I&aposM OKAY</h3>
+          <h3 className={styles.freelance_project_title}>I&apos;M OKAY</h3>
           <p className={styles.freelance_project_description}>
             I am working with therapist Mattie Sauer to promote her new podcast, 
-            I&aposM OKAY, as well as her approach to therapy.
+            I&apos;M OKAY, as well as her approach to therapy.
           </p>
           <button className={styles.secondary_btn}>
             <a href='https://www.instagram.com/mattieimokay/' target='_blank'>Instagram</a>
