@@ -27,6 +27,7 @@ export default function About() {
     ],
     'Testing' : [
       'TDD & BDD',
+      'Rspec',
       'Cucumber',
       'Selenium',
       'Jest',
@@ -62,7 +63,7 @@ export default function About() {
         })}
       </div>
       <a href='/rebecca_weir_resume.pdf' alt='resume' target='_blank' rel="noopener noreferrer"
-        className={styles.resume}>Download Resume</a>
+        className={styles.primary_btn}>Download Resume</a>
       <h2 className={styles.about_title}>Personal Bio</h2>
       <a href='#about'>
         <FontAwesomeIcon icon={faAngleDown} className={styles.arrow_icon}/>

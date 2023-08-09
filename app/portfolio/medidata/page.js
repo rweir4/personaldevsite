@@ -6,8 +6,8 @@ export default function Medidata() {
       <img src='/medidata.webp' alt='medidata logo' className={styles.logo} />
       <h1 className={styles.page_titles}>Medidata Solutions, A Dassault Systemes Company</h1>
       <p className={styles.project_about}>
-        <h2>Notable Projects</h2>
-        <div className={styles.professional_projects}>
+        <h2>Notable portfolio</h2>
+        <div className={styles.professional_portfolio}>
           <h3>Clinical Trial Organization:</h3>
           <p>Worked closely with design and product to plan and implement a database level to UI 
             reorganization of all clinical trials that allows for various sortings of the trials.

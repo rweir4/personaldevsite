@@ -6,8 +6,8 @@ export default function Vimeo() {
       <img src='/vimeo.png' alt='vimeo logo' className={styles.logo} />
       <h1 className={styles.page_titles}>Vimeo, Inc.</h1>
       <p className={styles.project_about}>
-        <h2>Notable Projects</h2>
-        <div className={styles.professional_projects}>
+        <h2>Notable portfolio</h2>
+        <div className={styles.professional_portfolio}>
           <h3>Subscriptions Redesign</h3>
           <p>Worked on a redesign and implementation of the subscription system 
             to allow for improved consistency thereby reducing payments issues.
