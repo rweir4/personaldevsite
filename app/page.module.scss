@@ -412,7 +412,9 @@
 }
 
 .about_title {
-  padding: 5rem 0 1rem 0;
+  font-size: 2rem;
+  padding: 5rem 0;
+  color: var(--tan);
 }
 
 // BUTTONS //
@@ -493,6 +495,10 @@
     padding: 5rem;
     font-size: 1.2rem;
   }
+}
+
+.inline_link {
+  text-decoration: underline;
 }
 
 .email {

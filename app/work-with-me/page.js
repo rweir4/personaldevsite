@@ -25,7 +25,7 @@ export default function WorkWithMe() {
         <div className={styles.box_left}>
           <p>
             I work with small business to grow and promote their brands by updating or redesigning and creating their site. 
-            If you would like to see the kind of work I do, please check out my Freelance Portfolio. 
+            If you would like to see the kind of work I do, please check out my <a href='/portfolio/freelance' className={styles.inline_link}>Freelance Portfolio</a>. 
           </p>
         </div>
       </div>
