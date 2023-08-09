@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
             <a href='/'>Home</a>
             <a href='/portfolio'>Portfolio</a>
             <a href='/about'>About</a>
-            {/* <a href='/work-with-me'>Work With Me</a> */}
+            <a href='/work-with-me'>Work With Me</a>
           </nav>
         </header>
         {children}

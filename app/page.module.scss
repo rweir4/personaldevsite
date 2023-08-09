@@ -301,84 +301,6 @@
   }
 }
 
-// .contact {
-//   padding-top: 3rem;
-//   display: flex;
-//   width: var(--max-width);
-//   justify-content: space-evenly;
-//   color: var(--dark-grey);
-
-// }
-
-// .chat {
-//   padding-top: 3rem;
-//   width: 30%;
-// }
-
-// .email {
-//   width: 35rem;
-//   display: flex;
-//   flex-direction: column;
-//   font-weight: 700;
-
-//   input {
-//     padding: .5rem;
-//     border: 1.25px solid var(--dark-grey);
-//     border-radius: 3px;
-//   }
-
-//   input::-webkit-input-placeholder {
-//     opacity: .75;
-//   }
-
-//   input:focus-visible {
-//     outline: 1px solid var(--dark-creme);
-//   }
-  
-//   label {
-//     margin: 1rem 1rem 1rem 0;
-//     // align-items: bottom;
-//   }
-
-//   textarea {
-//     min-height: 10rem;
-//     border: 1.25px solid var(--dark-grey);
-//     border-radius: 3px;
-//     padding: .5rem;
-//     font-family: var(--font-title);
-//     font-weight: 700;
-//   }
-
-//   textarea:focus-visible {
-//     outline: 1px solid var(--dark-creme);
-//   }
-
-//   button {
-//     background-color: var(--creme);
-//     border: 2px solid var(--tan);
-//     color: var(--tan);
-//     font-family: var(--font-title);
-//     font-weight: 700;
-//     font-size: 1rem;
-//     border-radius: 3px;
-//     align-self: center;
-//     width: 6rem;
-//     padding: 1rem;
-//     margin: 2rem 0;
-//   }
-  
-//   button:hover {
-//     background-color: var(--tan);
-//     color: var(--creme);
-//     border: none;
-//   }
-// }
-
-// .form_info {
-//   display: flex;
-//   justify-content: space-between;
-// }
-
 .ginny {
   height: 20rem;
   padding: 1rem;
@@ -526,4 +448,57 @@
     background-color: var(--creme);
     color: var(--tan);
   }
+}
+
+.work_with_me_subtitle {
+  text-align: center;
+  padding: 5rem 15rem;
+  color: var(--tan);
+}
+
+.work_with_me_desc {
+  display: flex;
+  height: 20rem;
+  text-align: center;
+}
+
+.work_with_me_type {
+  font-size: 2rem;
+}
+
+.box_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50vw;
+  color: var(--tan);
+
+  p {
+    padding: 5rem;
+    font-size: 1.2rem;
+  }
+}
+
+.box_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50vw;
+  background-color: var(--tan);
+  color: var(--light-creme);
+
+  p {
+    padding: 5rem;
+    font-size: 1.2rem;
+  }
+}
+
+.email {
+  font-size: 1.8rem;
+  color: var(--tan);
+  width: 50rem;
+  padding: 5rem 0;
+  text-align: center;
 }
