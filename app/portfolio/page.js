@@ -49,18 +49,31 @@ export default function portfolio() {
           <FontAwesomeIcon icon={faChevronDown} />
         </a>
       </section>
-      <section id='personal' className={styles.portfolio}>
-        <a href='portfolio/developer_porfolio'>
-          <img src='/keyboard.jpg' alt='computer'  
-            className={styles.highlight} loading='eager'/>
-          <h3 className={styles.project_title}>Developer Portfolio</h3>
-        </a>        
-        <a href='portfolio/ginnyandcoMock'>
-          <img src='/park.jpg' alt='park'  
-            className={styles.highlight} loading='eager'/>
-          <h3 className={styles.project_title}>Ginny and Co. Brand Shop</h3>
-        </a>
-      </section>
+      <div className={styles.professional}>
+        <img src='/keyboard.jpg' height="600" />
+        <div className={styles.professional_title}>
+          <h3>Developer Portfolio</h3>
+          <button className={styles.secondary_btn}>
+            <a href='https://github.com/rweir4/personaldevsite'alt='github-repo'target="_blank">Github Repo</a>
+          </button>
+        </div>
+        <div className={styles.logo_right} />
+      </div>      
+      <div className={styles.professional}>
+        <div className={styles.professional_title}>
+          <h3>Ginny & Co Brand Shop</h3>
+          <button className={styles.secondary_btn}>
+          <a href='https://github.com/rweir4/doganddog' alt='github-repo' target="_blank">
+            Github Repo
+          </a>
+          </button>
+          <button className={styles.secondary_btn}>
+          <a href='https://ginnyandco.herokuapp.com/' >View Ginny and Co</a>
+          </button>
+        </div>
+        <div className={styles.logo_left} />
+        <img src='/ginnyandco.png' height="600"/>
+      </div>
     </main>
   )
 }
