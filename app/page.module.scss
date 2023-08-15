@@ -181,6 +181,10 @@
   }
 }
 
+.personal_projects {
+  height: 600px;
+}
+
 .logo {
   width: 30%;
   padding-top: 3rem;
@@ -535,6 +539,49 @@
       border: none;
     }
   }
+
+  .professional {
+    height: 20rem;
+
+    &:nth-of-type(1) {
+      img {
+        width: 10rem;
+        padding-left: 3rem;
+      }
+    }
+
+    &:nth-of-type(2) {
+      img {
+        width: 10rem;
+        padding-right: 3rem;
+      }
+    }
+
+    .professional_title h3 {
+      font-size: 1rem;
+    }
+  }
+
+  .freelance_title {
+    font-size: 2rem;
+    padding-left: 3rem;
+  }
+
+  .logo_left {
+    width: 100%;
+    height: 20rem;
+  }    
+  
+  .logo_right {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .personal_projects {
+    height: 10rem;
+  }
+
+
 
 
   .work_with_me_subtitle {

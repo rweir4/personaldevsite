@@ -14,7 +14,7 @@ export default function portfolio() {
       <section id='professional'>
         <div className={styles.professional}>
           <div className={styles.logo_left} />
-          <img src='/medidata.webp' alt='medidata' className={styles.highlight} />
+          <img src='/medidata.webp' alt='medidata' />
           <div className={styles.professional_title}>
             <h3>Medidata Solutions, A Dassault Systemes Company</h3>
             <button className={styles.secondary_btn}>
@@ -50,7 +50,7 @@ export default function portfolio() {
         </a>
       </section>
       <div className={styles.professional}>
-        <img src='/keyboard.jpg' height="600" />
+        <img src='/keyboard.jpg' className={styles.personal_projects}/>
         <div className={styles.professional_title}>
           <h3>Developer Portfolio</h3>
           <button className={styles.secondary_btn}>
@@ -72,7 +72,7 @@ export default function portfolio() {
           </button>
         </div>
         <div className={styles.logo_left} />
-        <img src='/ginnyandco.png' height="600"/>
+        <img src='/ginnyandco.png' className={styles.personal_projects}/>
       </div>
     </main>
   )
