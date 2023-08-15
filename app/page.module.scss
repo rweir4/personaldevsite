@@ -317,17 +317,16 @@
 
 .freelance_subtitle {
   font-size: 1.5rem;
-  padding-top: 1rem;
+  padding: 1rem 0 5rem 0;
 }
 
 .freelance_project {
   display: flex;
   justify-content: space-between;
-  height: 30rem;
+  min-height: 30rem;
   width: 100vw;
-  margin: 5rem;
   background-color: var(--light-creme);
-  padding: 0 10vw;
+  padding: 5rem 10vw;
 
   div {
     padding-right: 3rem;
@@ -336,7 +335,7 @@
 
 .freelance_project_title {
   font-size: 1.5rem; 
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 .freelance_project_description {
@@ -345,8 +344,7 @@
 }
 
 .freelance_photo {
-  height: 100%;
-  // width: 50rem;
+  max-height: 30rem;
   border-radius: 3px;
 }
 
@@ -510,6 +508,8 @@
   color: var(--tan);
 }
 
+///// MOBILE //////
+
 @media screen and (max-width: 900px) {
   
   .navbar {
@@ -581,8 +581,26 @@
     height: 10rem;
   }
 
+  .freelance_subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 
+  .freelance_project {
+    flex-direction: column;
+  }
 
+  .freelance_project_title {
+    font-size: 1.2rem;
+  }
+
+  .freelance_project_description {
+    font-size: 1rem;
+  }
+
+  .freelance_photo {
+    padding: 3rem 0;
+  }
 
   .work_with_me_subtitle {
     padding: 5rem 0;
