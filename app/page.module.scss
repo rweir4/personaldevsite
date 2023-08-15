@@ -33,18 +33,6 @@
     background-color: var(--creme);
     color: var(--tan);
   }
-      
-  // section:nth-child(even) {
-  //   background-image: linear-gradient(var(--creme), var(--teal));
-  // }
-  
-  // section:nth-child(3) {
-  //   background-color: var(--teal);
-  // }
-  
-  // section:nth-child(4) {
-  //   background-image: linear-gradient(var(--teal), var(--creme));
-  // }
 }
 
 .header {
@@ -507,4 +495,43 @@
   width: 50rem;
   padding: 5rem 0;
   text-align: center;
+}
+
+.hamburger {
+  display: none;
+  height: 2rem;
+  position: absolute;
+  top: 3.5rem;
+  right: 2rem;
+  color: var(--tan);
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: none; 
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar_mobile {
+    position: static;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    a {
+      margin: 3px;
+    }
+
+    a:hover {
+      color: var(--dark-creme);
+    }
+  
+    a:focus-visible {
+      border: none;
+    }
+  }
 }

@@ -1,29 +1,23 @@
+'use client'
+
 import './globals.scss'
 import styles from './page.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import Header from 'app/components/Header.js';
 
-export const metadata = {
-  title: 'Rebecca Leigh Weir',
-  description: 'Personal Developer Site',
-}
+// export const metadata = {
+//   title: 'Rebecca Leigh Weir',
+//   description: 'Personal Developer Site',
+// }
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang='en'>
       <body>
-        <header id='header' className={styles.header}>
-          <a href='/'>
-            <img src='/brackets-rose.png' alt='brackets' className={styles.brackets}/>
-          </a>
-          <nav className={styles.navbar}>
-            <a href='/'>Home</a>
-            <a href='/portfolio'>Portfolio</a>
-            <a href='/about'>About</a>
-            <a href='/work-with-me'>Work With Me</a>
-          </nav>
-        </header>
+        <Header />
         {children}
         <a href='#header' title='Scroll To Top'>
           <FontAwesomeIcon icon={faChevronUp} className={styles.totoparrow} />
