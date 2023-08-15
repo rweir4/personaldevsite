@@ -492,7 +492,7 @@
 .email {
   font-size: 1.8rem;
   color: var(--tan);
-  width: 50rem;
+  width: 75%;
   padding: 5rem 0;
   text-align: center;
 }
@@ -507,6 +507,7 @@
 }
 
 @media screen and (max-width: 900px) {
+  
   .navbar {
     display: none; 
   }
@@ -534,4 +535,30 @@
       border: none;
     }
   }
+
+
+  .work_with_me_subtitle {
+    padding: 5rem 0;
+  }
+
+  .work_with_me_type {
+    font-size: 1.2rem;
+  }
+
+  .box_right p {
+    font-size: .75rem;
+    padding: 1rem;
+  }
+
+  .box_left p {
+    font-size: .75rem;
+    padding: 1rem;
+  }
+
+  .email {
+    font-size: 1.2rem;
+    width: 90%;
+    padding: 5rem 0;
+  }
+
 }
