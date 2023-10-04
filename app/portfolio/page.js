@@ -17,17 +17,13 @@ export default function portfolio() {
           <img src='/medidata.webp' alt='medidata' />
           <div className={styles.professional_title}>
             <h3>Medidata Solutions, A Dassault Systemes Company</h3>
-            <button className={styles.secondary_btn}>
-              <a href='portfolio/medidata'>See More</a>
-            </button>
+            <a href='portfolio/medidata' className={styles.secondary_btn}>See More</a>
           </div>
         </div>
         <div className={styles.professional}>
           <div className={styles.professional_title}>
             <h3>Vimeo, Inc.</h3>
-            <button className={styles.secondary_btn}>
-              <a href='portfolio/vimeo'>See More</a>
-            </button>
+            <a href='portfolio/vimeo' className={styles.secondary_btn}>See More</a>
           </div>
           <div className={styles.logo_right} />
           <img src='vimeo.png' alt='vimeo' className={styles.highlight} />
@@ -37,9 +33,7 @@ export default function portfolio() {
           <h3 className={styles.freelance_title}>Freelance</h3>
           <div className={styles.professional_title}>
             <h3>Freelance Design & Development</h3>
-            <button className={styles.secondary_btn}>
-              <a href='portfolio/freelance'>See More</a>
-            </button>
+            <a href='portfolio/freelance' className={styles.secondary_btn}>See More</a>
           </div>
         </div>
       </section>
@@ -53,23 +47,19 @@ export default function portfolio() {
         <img src='/keyboard.jpg' className={styles.personal_projects}/>
         <div className={styles.professional_title}>
           <h3>Developer Portfolio</h3>
-          <button className={styles.secondary_btn}>
-            <a href='https://github.com/rweir4/personaldevsite'alt='github-repo'target="_blank">Github Repo</a>
-          </button>
+          <a href='https://github.com/rweir4/personaldevsite'alt='github-repo'target="_blank" className={styles.secondary_btn}>
+            Github Repo
+          </a>
         </div>
         <div className={styles.logo_right} />
       </div>      
       <div className={styles.professional}>
         <div className={styles.professional_title}>
           <h3>Ginny & Co Brand Shop</h3>
-          <button className={styles.secondary_btn}>
-          <a href='https://github.com/rweir4/doganddog' alt='github-repo' target="_blank">
+          <a href='https://github.com/rweir4/doganddog' alt='github-repo' target="_blank" className={styles.secondary_btn}>
             Github Repo
           </a>
-          </button>
-          <button className={styles.secondary_btn}>
-          <a href='https://ginnyandco.herokuapp.com/' >View Ginny and Co</a>
-          </button>
+          <a href='https://ginnyandco.herokuapp.com/' className={styles.secondary_btn}>View Ginny and Co</a>
         </div>
         <div className={styles.logo_left} />
         <img src='/ginnyandco.png' className={styles.personal_projects}/>
