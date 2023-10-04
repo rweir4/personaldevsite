@@ -44,6 +44,16 @@ export default function portfolio() {
         </a>
       </section>
       <div className={styles.professional}>
+        <div className={styles.logo_left} />
+          <div className={styles.professional_title}>
+            <h3>Korean Translator</h3>
+            <a href='https://github.com/rweir4/korean_translator'alt='github-repo'target="_blank" className={styles.secondary_btn}>
+              Github Repo
+            </a>
+          </div>
+        <img src='/korean_food.jpg' className={styles.personal_projects}/>
+      </div>
+      <div className={styles.professional}>       
         <img src='/keyboard.jpg' className={styles.personal_projects}/>
         <div className={styles.professional_title}>
           <h3>Developer Portfolio</h3>
