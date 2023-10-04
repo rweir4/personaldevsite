@@ -43,37 +43,39 @@ export default function portfolio() {
           <FontAwesomeIcon icon={faChevronDown} />
         </a>
       </section>
-      <div className={styles.professional}>
-        <div className={styles.logo_left} />
+      <section id='personal'>
+        <div className={styles.professional}>
+          <div className={styles.logo_left} />
           <div className={styles.professional_title}>
             <h3>Korean Translator</h3>
             <a href='https://github.com/rweir4/korean_translator'alt='github-repo'target="_blank" className={styles.secondary_btn}>
               Github Repo
             </a>
           </div>
-        <img src='/korean_food.jpg' className={styles.personal_projects}/>
-      </div>
-      <div className={styles.professional}>       
-        <img src='/keyboard.jpg' className={styles.personal_projects}/>
-        <div className={styles.professional_title}>
-          <h3>Developer Portfolio</h3>
-          <a href='https://github.com/rweir4/personaldevsite'alt='github-repo'target="_blank" className={styles.secondary_btn}>
-            Github Repo
-          </a>
+          <img src='/korean_food.jpg' />
         </div>
-        <div className={styles.logo_right} />
-      </div>      
-      <div className={styles.professional}>
-        <div className={styles.professional_title}>
-          <h3>Ginny & Co Brand Shop</h3>
-          <a href='https://github.com/rweir4/doganddog' alt='github-repo' target="_blank" className={styles.secondary_btn}>
-            Github Repo
-          </a>
-          <a href='https://ginnyandco.herokuapp.com/' className={styles.secondary_btn}>View Ginny and Co</a>
+        <div className={styles.professional}>       
+          <img src='/keyboard.jpg' />
+          <div className={styles.professional_title}>
+            <h3>Developer Portfolio</h3>
+            <a href='https://github.com/rweir4/personaldevsite'alt='github-repo'target="_blank" className={styles.secondary_btn}>
+              Github Repo
+            </a>
+          </div>
+          <div className={styles.logo_right} />
+        </div>      
+        <div className={styles.professional}>
+          <div className={styles.logo_left} />
+          <div className={styles.professional_title}>
+            <h3>Ginny & Co Brand Shop</h3>
+            <a href='https://github.com/rweir4/doganddog' alt='github-repo' target="_blank" className={styles.secondary_btn}>
+              Github Repo
+            </a>
+            <a href='https://ginnyandco.herokuapp.com/' className={styles.secondary_btn}>View Ginny and Co</a>
+          </div>
+          <img src='/ginnyandco.jpg' />
         </div>
-        <div className={styles.logo_left} />
-        <img src='/ginnyandco.png' className={styles.personal_projects}/>
-      </div>
+      </section>
     </main>
   )
 }
