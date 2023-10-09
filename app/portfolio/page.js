@@ -26,16 +26,25 @@ export default function portfolio() {
             <a href='portfolio/vimeo' className={styles.secondary_btn}>See More</a>
           </div>
           <div className={styles.logo_right} />
-          <img src='vimeo.png' alt='vimeo' className={styles.highlight} />
+          <img src='vimeo.png' alt='vimeo' />
         </div>
         <div className={styles.professional}>
           <div className={styles.logo_left} />
-          <h3 className={styles.freelance_title}>Freelance</h3>
+          <img src='dreamsloth.png' alt='dreamsloth' />
+          <div className={styles.professional_title}>
+            <h3>Dream Sloth Games</h3>
+            <a href='portfolio/dreamsloth' className={styles.secondary_btn}>See More</a>
+          </div>
+        </div>
+        <div className={styles.professional}>
           <div className={styles.professional_title}>
             <h3>Freelance Design & Development</h3>
             <a href='portfolio/freelance' className={styles.secondary_btn}>See More</a>
           </div>
+          <div className={styles.logo_right} />
+          <h3 className={styles.freelance_title}>Freelance</h3>
         </div>
+        
       </section>
       <section>
         <h2>Personal</h2>

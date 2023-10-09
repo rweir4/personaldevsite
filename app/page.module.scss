@@ -121,7 +121,7 @@
 }
 
 .professional {
-  padding: 5rem 0;
+  min-height: 30rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -201,18 +201,6 @@
   }
 }
 
-.portfolio {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  
-  img {
-    padding: 1rem;
-    width: 15rem;
-    height: 20rem;
-  }
-}
-
 .arrow_icon {
   width: 2rem;
   align-self: center;
@@ -245,11 +233,6 @@
   top: -45px;
   left: 15px;
 }
-
-// .highlight:hover {
-  // filter: brightness(50%);
-  // cursor: pointer;
-// }
 
 .about_pic {
   width: 22rem;
