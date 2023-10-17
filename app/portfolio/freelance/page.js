@@ -3,7 +3,7 @@ import styles from 'app/page.module.scss';
 
 export default function Freelance() {
  return (
-   <main className={styles.main}>
+   <main className={styles.main}> 
     <h1 className={styles.page_titles}>Freelance</h1>
     <h3 className={styles.freelance_subtitle}>Customized Design, Squarespace Hosted</h3>
     <div className={styles.freelance_project}>
