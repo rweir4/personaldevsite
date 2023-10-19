@@ -4,35 +4,6 @@
   align-items: center;
   padding: 0rem 6rem 6rem 6rem;
   min-height: 100vh;
-
-  section {
-    scroll-behavior: smooth;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100vw;
-    border-radius: 3px;
-    align-items: center;
-    
-    h2 {
-      font-size: 5rem;
-      text-align: center;
-    }
-
-    @media screen and (max-width: 900px) {
-      h2 {
-        font-size: 2.5rem;
-      }  
-    }
-  }
-  
-  
-  section:nth-child(odd) {    
-    height: 90vh;
-    flex-direction: column;
-    background-color: var(--creme);
-    color: var(--tan);
-  }
 }
 
 .header {
@@ -41,24 +12,55 @@
 
 .navbar {
   width: 50%;
+  padding-bottom: 2rem;
   margin: auto;
   font-family: var(--font-title);
   font-size: 1.25em;
   color: var(--tan);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   a {
-    margin: 3rem 2rem;
+    margin: 1rem 2rem;
   }
 
   a:hover {
-    color: var(--dark-creme);
+    color: var(--dark-tan);
   }
 
   a:focus-visible {
     border: none;
   }
+}
+
+.subnav {
+  overflow: hidden;
+}
+
+.subnav_content {
+  padding: 10px;
+  display: none;
+  position: absolute;
+  left: 10;
+  z-index: 10;
+  color: var(--creme);
+  background-color: rgba(156, 117, 84, .65);
+}
+
+.subnav_content a {
+  margin: 0;
+  padding: 20px;
+}
+
+.subnav_content a:hover {
+  color: var(--dark-tan);
+}
+
+.subnav:hover .subnav_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 .intro {
@@ -83,7 +85,7 @@
 
 .bracket_logo {
   width: 20rem;
-  padding-top: 2rem;
+  padding: 2rem 0;
   display: block;
   margin: auto;
 }
@@ -271,11 +273,11 @@
 }
 
 .about {
-  background-color: var(--teal);
+  background-color: var(--rose);
   display: flex;
   width: var(--max-width);
   justify-content: space-around;
-  padding: 10rem 5rem;
+  padding: 7rem 5rem;
 
   p {
     width: 50%;
@@ -403,14 +405,14 @@
 
 .about_title {
   font-size: 2rem;
-  padding: 5rem 0;
+  padding: 3rem 0;
   color: var(--tan);
 }
 
 // BUTTONS //
 
 .primary_btn {
-  margin: 1rem;
+  margin: 3rem;
   padding: 1.5rem;
   background-color: var(--tan);
   color: var(--creme);

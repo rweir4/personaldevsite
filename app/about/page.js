@@ -43,14 +43,15 @@ export default function About() {
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.about_title}>Personal Bio</h1>
+      <h1 className={styles.about_title}>Behind the Coder, Behind the Writer</h1>
       <div id='about' className={styles.about}>
         <img src='/ginny-and-me.png' alt='Rebecca Weir' width='300' height='300'
           className={styles.about_pic} />
         <p>
-          I am a fullstack developer with almost five years of experience,
+          <h2>The Coder</h2>
+          I am a Full Stack developer with five years of experience,
           primarily working in a stack of Ruby on Rails and Javascript,
-          after working for three years as a computational biologist.<br />
+          after working as a computational biologist.<br />
           <br />
           My previous work as a developer includes implementing and updating
           payments systems, authorization, and subscriptions, to name a few,
@@ -60,12 +61,25 @@ export default function About() {
           with design, product, and people in mind,
           almost as much pride as I take in my puppy.<br />
           <br />
-          For fun, I write books, play video games, and take my mini dachshund,
-          Ginny, to the park.
+
+          <h2>The Writer</h2>
+          I started writing in France, on a hot summer's day at a window that
+          was a mere thread of relief. It was a heat wave, and the only way to escape it
+          was to make a world of my own.<br />
+          <br />
+          For YA, I write sci-fi and fantasy books.
+          For Adult Fiction, I write sci-fi and general fiction short stories.<br />
+          <br />
+
+          <h2>The Person</h2>
+          I constantly alternate between video games, books, crafts, violin, and taekwondo.
+          But the most important thing to me is my mini dachshund, Ginny, who is there for it all.
         </p>
       </div>
-      <h2 className={styles.about_title}>Skills and Resume</h2>
-      <div className={styles.skills}>
+        <a href='/rebecca_weir_resume.pdf' alt='resume' target='_blank' rel="noopener noreferrer"
+          className={styles.primary_btn}>Download Resume</a>
+      {/* <h2 className={styles.about_title}>Skills and Resume</h2> */}
+      {/* <div className={styles.skills}>
         {Object.keys(skillsList).map(skill => {
           return (
             <div className={styles.skill_list} key={skill}>
@@ -82,9 +96,7 @@ export default function About() {
             </div>
           )
         })}
-      </div>
-      <a href='/rebecca_weir_resume.pdf' alt='resume' target='_blank' rel="noopener noreferrer"
-        className={styles.primary_btn}>Download Resume</a>
+      </div> */}
     </main>
   )
 }
