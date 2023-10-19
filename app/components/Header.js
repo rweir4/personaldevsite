@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header id='header' className={styles.header}>
       <a href='/'>
-        <img src='/brackets-rose.png' alt='brackets' className={styles.brackets}/>
+        <img src='/logo-brackets.png' className={styles.bracket_logo}/>
       </a>
       <nav className={styles.navbar}>
         <a href='/'>Home</a>
