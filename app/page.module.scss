@@ -235,14 +235,14 @@
 
 .totoparrow {
   padding: 5px;
-  color: var(--tan);
+  color: var(--dark-tan);
   width: 2.7rem;
   position: fixed;
   bottom: 10vh;
   right: 5vw;
 
   &:hover {
-    border: 2px solid var(--dark-teal);
+    border: 2px solid var(--dark-tan);
     width: 2.9rem;
   }
   
