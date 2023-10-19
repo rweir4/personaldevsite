@@ -63,7 +63,7 @@ export default function About() {
           <br />
 
           <h2>The Writer</h2>
-          I started writing in France, on a hot summer's day at a window that
+          I started writing in France, on a hot summer&apos;s day at a window that
           was a mere thread of relief. It was a heat wave, and the only way to escape it
           was to make a world of my own.<br />
           <br />
