@@ -501,6 +501,55 @@
   text-align: center;
 }
 
+.book_heading {
+  color: var(--dark-grey);
+  text-align: center;
+
+  img {
+    padding: 1rem;
+    width: 15rem;
+  }
+}
+
+.book_cover {
+  width: 15rem;
+}
+
+.series {
+  color: var(--dark-grey);
+  padding-top: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+  p {
+    margin-left: 5rem;
+    width: 20rem;
+  }
+}
+
+.episode_links {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    color: var(--dark-grey);
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--light-creme);
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+  }
+}
+
+.coming_soon {
+  color: var(--dark-grey);
+  padding-top: 3rem;
+}
+
+///// MOBILE //////
+
 .hamburger {
   display: none;
   height: 2rem;
@@ -509,8 +558,6 @@
   right: 2rem;
   color: var(--tan);
 }
-
-///// MOBILE //////
 
 @media screen and (max-width: 900px) {
   
