@@ -26,6 +26,7 @@ export default function Books() {
         <button>eBook</button>
         <button>Audiobook</button>
       </div>
+      <p className={styles.creative_commons}>The Blip in the Facade © 2023 by Rebecca Weir is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/</p>
     </main>
   )
 }
