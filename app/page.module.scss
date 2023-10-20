@@ -520,9 +520,11 @@
   padding-top: 3rem;
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-
+  
   p {
+    margin-top: 1rem;
     margin-left: 5rem;
     width: 20rem;
   }
@@ -544,6 +546,7 @@
 }
 
 .coming_soon {
+  text-align: center;
   color: var(--dark-grey);
   padding-top: 3rem;
 }
