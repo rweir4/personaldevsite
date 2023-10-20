@@ -68,7 +68,6 @@
   left: 50%;
   transform: translate(-50%, 0);
   z-index: -4;
-  background-color: var(--rose);
   width: 80rem;
   height: 60rem;
   opacity: .4;
@@ -78,7 +77,7 @@
   width: 70rem;
   position: absolute;
   left: 50%;
-  top: 36.5%;
+  top: 22rem;
   transform: translate(-50%, 0);
   z-index: -2;
 }
@@ -273,12 +272,12 @@
 }
 
 .about {
-  background-color: var(--dark-grey);
+  // background-color: var(--dark-grey);
   display: flex;
-  color: var(--light-creme);
+  color: var(--dark-grey);
   width: 100vw;
   justify-content: space-around;
-  padding: 7rem 5rem;
+  padding: 5rem;
 
   p {
     width: 50%;
