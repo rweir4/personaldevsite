@@ -49,6 +49,7 @@ export default function About() {
           className={styles.about_pic} />
         <p>
           <h2>The Coder</h2>
+          <br />
           I am a Full Stack developer with five years of experience,
           primarily working in a stack of Ruby on Rails and Javascript,
           after working as a computational biologist.<br />
@@ -60,18 +61,20 @@ export default function About() {
           I take pride in working on both small and large scales,
           with design, product, and people in mind,
           almost as much pride as I take in my puppy.<br />
-          <br />
+          <br /><br />
 
           <h2>The Writer</h2>
+          <br />
           I started writing in France, on a hot summer&apos;s day at a window that
           was a mere thread of relief. It was a heat wave, and the only way to escape it
           was to make a world of my own.<br />
           <br />
           For YA, I write sci-fi and fantasy books.
           For Adult Fiction, I write sci-fi and general fiction short stories.<br />
-          <br />
+          <br /><br />
 
           <h2>The Person</h2>
+          <br />
           I constantly alternate between video games, books, crafts, violin, and taekwondo.
           But the most important thing to me is my mini dachshund, Ginny, who is there for it all.
         </p>

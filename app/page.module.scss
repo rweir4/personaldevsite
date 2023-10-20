@@ -258,11 +258,11 @@
 }
 
 .about_pic {
-  width: 22rem;
-  height: 22rem;
+  width: 30rem;
+  height: 40rem;
+  align-self: center;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 50%;
 
   @media screen and (max-width: 900px) {
     width: 8rem;
@@ -273,9 +273,10 @@
 }
 
 .about {
-  background-color: var(--rose);
+  background-color: var(--dark-grey);
   display: flex;
-  width: var(--max-width);
+  color: var(--light-creme);
+  width: 100vw;
   justify-content: space-around;
   padding: 7rem 5rem;
 
@@ -546,7 +547,7 @@
 }
 
 .coming_soon {
-  text-align: center;
+  text-align: centerd;
   color: var(--dark-grey);
   padding-top: 3rem;
 }
