@@ -212,6 +212,65 @@
   }
 }
 
+.game_banner {
+  padding: 3rem 0;
+  display: flex;
+  
+  img {
+    height: 20rem;
+  }
+}
+
+.game_description {
+  text-align: center;
+  padding: 2rem 0;
+  width: 30rem;
+  font-size: 1.2em;
+}
+
+.steam_link {
+  position: absolute;
+  top: 70rem;
+  z-index: 2;
+  padding: 1rem;
+  background-color: var(--dark-grey);
+  color: var(--light-creme);
+  border-radius: 5px;
+
+  &:hover {
+    opacity: .9;
+  }
+}
+
+.steam_img {
+  padding: 3rem 0;
+  width: 30rem;
+  opacity: .9;
+}
+
+.duelyst_links {
+  display: flex;
+
+  a {
+    width: 7rem;
+    margin: 0 1rem;
+    
+    &:hover {
+      -webkit-filter: brightness(90%);
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+    }
+
+    img {
+      width: 7rem;
+  
+    }
+  }
+}
+
 .professional_portfolio {
   h3 {
     font-weight: 700;
@@ -501,7 +560,7 @@
   text-align: center;
 }
 
-.book_heading {
+.heading {
   color: var(--dark-grey);
   text-align: center;
 

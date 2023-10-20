@@ -4,7 +4,7 @@ export default function Books() {
   return (
     <main className={styles.main}>
       <div>
-        <div className={styles.book_heading}>
+        <div className={styles.heading}>
           <h1>Books</h1>
           <img src='/electronic_lines.png' />
         </div>
