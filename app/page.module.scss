@@ -1,4 +1,5 @@
 .main {
+  overflow: visible;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,34 +69,44 @@
   left: 50%;
   transform: translate(-50%, 0);
   z-index: -4;
-  width: 80rem;
+  max-width: 80rem;
   height: 60rem;
   opacity: .4;
 }
 
 .rose_background {
-  width: 70rem;
+  max-width: 70%;
   position: absolute;
   left: 50%;
   top: 22rem;
   transform: translate(-50%, 0);
   z-index: -2;
+
+  @media screen and (max-width: 900px) {
+    top: 40%;
+  }
 }
 
 .bracket_logo {
-  width: 20rem;
+  max-width: 22rem;
   padding: 2rem 0;
   display: block;
   margin: auto;
+  position: relative;
+  z-index: 10;
+  
+  @media screen and (max-width: 900px) {
+    max-width: 60%;
+  }
 }
 
 
 .picture {
-  width: 20rem;
+  max-width: 20rem;
   color: var(--dark-grey);
 
   @media screen and (max-width: 900px) {
-    width: 15rem;
+    max-width: 15rem;
   }
 }
 
@@ -296,8 +307,8 @@
   color: var(--dark-tan);
   width: 2.7rem;
   position: fixed;
-  bottom: 10vh;
-  right: 5vw;
+  bottom: 5rem;
+  right: 3rem;
 
   &:hover {
     border: 2px solid var(--dark-tan);
@@ -305,7 +316,7 @@
   }
   
   &:active {
-    color: var(--dark-grey);
+    background-color: var(--light-creme);
   }
 }
 
@@ -613,7 +624,7 @@
 .creative_commons {
   position: relative;
   top: 5rem;
-  width: 50rem;
+  max-width: 50rem;
   text-align: center;
 }
 
@@ -621,14 +632,27 @@
 
 .hamburger {
   display: none;
-  height: 2rem;
+  height: 1.75rem;
   position: absolute;
+  z-index: 10;
   top: 3.5rem;
   right: 2rem;
   color: var(--tan);
 }
 
+.navbar_mobile {
+  display: none;
+}
+
+
 @media screen and (max-width: 900px) {
+  .title {
+    padding-top: 1rem;
+  }
+  
+  .rose_background {
+    top: 10rem;
+  }
   
   .navbar {
     display: none; 
@@ -639,8 +663,13 @@
   }
 
   .navbar_mobile {
-    position: static;
-    margin-right: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: var(--light-creme);
+    padding: 8rem 2rem 6rem 2rem;
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -659,6 +688,11 @@
     a:focus-visible {
       border: none;
     }
+  }
+
+  .totoparrow {
+    // top: 10px;
+    // left: 10px;
   }
 
   .professional {

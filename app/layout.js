@@ -15,7 +15,7 @@ import Header from 'app/components/Header.js';
 export default function RootLayout({ children }) {
 
   return (
-    <html lang='en'>
+    <html lang='en' style={{ overflow: 'visible' }}>
       <body>
         <Header />
         {children}
