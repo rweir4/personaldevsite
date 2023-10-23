@@ -71,7 +71,6 @@
   z-index: -4;
   max-width: 80rem;
   height: 60rem;
-  opacity: .4;
 }
 
 .rose_background {
@@ -82,8 +81,16 @@
   transform: translate(-50%, 0);
   z-index: -2;
 
+  @media screen and (max-width: 1340px) {
+    top: 24rem;
+  }  
+  
   @media screen and (max-width: 900px) {
-    top: 40%;
+    top: 14rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    top: 10rem;
   }
 }
 
@@ -100,19 +107,12 @@
   }
 }
 
-
-.picture {
-  max-width: 20rem;
-  color: var(--dark-grey);
-
-  @media screen and (max-width: 900px) {
-    max-width: 15rem;
-  }
-}
-
-
 .title {
   padding-top: 10rem;
+
+  @media screen and (max-width: 1340px) {
+    padding-top: 5rem;
+  }
 }
 
 .subtitle {
@@ -126,6 +126,15 @@
 
   @media screen and (max-width: 900px) {
     font-size: 1rem;
+  }
+}
+
+.picture {
+  max-width: 20rem;
+  color: var(--dark-grey);
+
+  @media screen and (max-width: 900px) {
+    max-width: 15rem;
   }
 }
 
@@ -648,10 +657,6 @@
 @media screen and (max-width: 900px) {
   .title {
     padding-top: 1rem;
-  }
-  
-  .rose_background {
-    top: 10rem;
   }
 
   .game_banner {    
