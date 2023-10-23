@@ -235,13 +235,13 @@
 .game_description {
   text-align: center;
   padding: 2rem 0;
-  width: 30rem;
+  max-width: 30rem;
   font-size: 1.2em;
 }
 
 .steam_link {
-  position: absolute;
-  top: 70rem;
+  position: relative;
+  top: 13rem;
   z-index: 2;
   padding: 1rem;
   background-color: var(--dark-grey);
@@ -651,6 +651,20 @@
   }
   
   .rose_background {
+    top: 10rem;
+  }
+
+  .game_banner {    
+    img {
+      height: 10rem;
+    }
+  }
+
+  .steam_img {
+    width: 20rem;
+  }
+
+  .steam_link {
     top: 10rem;
   }
   
