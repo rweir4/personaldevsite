@@ -3,7 +3,7 @@
 import styles from 'app/page.module.scss';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
   let [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -25,7 +25,10 @@ export default function Header() {
       <nav className={styles.navbar}>
         <a href='/'>Home</a>
         <div className={styles.subnav} onClick={toggleSubNav}>
-          <a className={styles.subnavbtn}>Development</a>
+        <div className={styles.subnavbtn}>
+          <p>Development</p>
+          <FontAwesomeIcon icon={faCaretDown} style={{"--fa-primary-color": "#bf9774", "--fa-secondary-color": "#9c7554", "--fa-secondary-opacity": "0.4",}} />
+        </div>
           {subNav && <div className={styles.subnav_content}>
             <a href="/development/fullstack_engineer">Full Stack Engineering</a>
             <a href="/development/game_development">Game Development</a>

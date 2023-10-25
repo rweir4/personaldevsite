@@ -13,7 +13,7 @@ export default function Home() {
         <p className={styles.description}>As a coder and a creative writer, I believe that storytelling is capable of making a difference, and software development is another way to tell a story, whether it be the code&apos;s, the company&apos;s, or the customer&apos;s.</p>
       </div>
       <img 
-        src='/rebecca-outline.png' 
+        src='/rebecca-outline-eggplant.png' 
         alt='Picture of Developer' 
         className={styles.picture} />
     </main>

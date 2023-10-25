@@ -5,6 +5,7 @@
   align-items: center;
   padding: 0rem 6rem 6rem 6rem;
   min-height: 100vh;
+  background-color: var(--light-creme);
 }
 
 .header {
@@ -17,7 +18,7 @@
   margin: auto;
   font-family: var(--font-title);
   font-size: 1.25em;
-  color: var(--tan);
+  color: var(--dark-creme);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -27,7 +28,7 @@
   }
 
   a:hover {
-    color: var(--dark-tan);
+    color: var(--eggplant);
   }
 
   a:focus-visible {
@@ -37,6 +38,19 @@
 
 .subnav {
   overflow: hidden;
+}
+
+.subnavbtn {
+  display: flex;
+  line-height: 22px;
+
+  p  {
+    padding-right: 5px;
+  }
+
+  &:hover {
+    color: var(--eggplant);
+  }
 }
 
 .subnav_content {
@@ -131,7 +145,6 @@
 
 .picture {
   max-width: 20rem;
-  color: var(--dark-grey);
 
   @media screen and (max-width: 900px) {
     max-width: 15rem;
@@ -335,44 +348,6 @@
   left: 15px;
 }
 
-.about_pic {
-  width: 30rem;
-  height: 40rem;
-  box-shadow: 20px 20px var(--dark-creme);
-  align-self: center;
-  object-fit: cover;
-  overflow: hidden;
-
-  @media screen and (max-width: 900px) {
-    width: 8rem;
-    height: 8rem;
-    margin: auto;
-    margin-bottom: 3rem;
-  }
-}
-
-.about {
-  display: flex;
-  color: var(--dark-grey);
-  padding: 1.5rem 0;
-
-  p {
-    padding-left: 5rem;
-    max-width: 60%;
-    font-size: 1.1rem;
-  }
-
-  @media screen and (max-width: 900px) {
-    flex-direction: column;
-
-    p {
-      padding: 0;
-      max-width: 100%;
-      font-size: 1rem;
-    }
-  }
-}
-
 .ginny {
   height: 20rem;
   padding: 1rem;
@@ -442,49 +417,8 @@
   }
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.skill_list {
-  text-align: center;
-  width: 20rem;
-}
-
-.indie_skill {
-  border: 1px solid var(--tan);
-}
-
-.skills {
-  padding-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  width: 65rem;
-  justify-content: space-evenly;
-  
-  div {
-    margin: .5rem;
-    padding: .5rem 1rem .5rem .5rem;
-  }
-
-  @media screen and (max-width: 60rem) {
-    width: 20rem;
-    
-    div {
-      margin: .2rem;
-      padding: .5rem;
-      border-radius: 5rem;
-      text-align: center;
-    }
-  }
-}
-
 .about_title {
   font-size: 2rem;
-  padding: 2rem 0;
-  color: var(--tan);
   text-align: center;
 }
 
@@ -523,59 +457,80 @@
   }
 }
 
-.work_with_me_subtitle {
-  text-align: center;
-  padding: 5rem 15rem;
-  color: var(--tan);
-}
+// ABOUT //
 
-.work_with_me_desc {
+.about {
   display: flex;
-  height: 20rem;
-  text-align: center;
+  padding: 3rem;
+  align-items: center;
+  width: 80%;
 }
 
-.work_with_me_type {
-  font-size: 2rem;
-}
+.about_pic {
+  width: 20rem;
+  height: 27rem;
+  object-fit: cover;
+  overflow: hidden;
 
-.box_left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  width: 50vw;
-  color: var(--tan);
-
-  p {
-    padding: 5rem;
-    font-size: 1.2rem;
+  @media screen and (max-width: 900px) {
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+    margin-bottom: 3rem;
   }
 }
 
-.box_right {
+.list_hats {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
-  width: 50vw;
-  background-color: var(--tan);
-  color: var(--light-creme);
+  line-height: 15px;
+  width: 60%;
 
   p {
-    padding: 5rem;
-    font-size: 1.2rem;
+    line-height: 30px;
+    padding-top: 1rem;
+
+    &:nth-of-type(1) {
+      padding-bottom: 3rem;
+    }    
+    
+    &:nth-of-type(2) {
+      padding-bottom: 3rem;
+    }
   }
+}
+
+.hat {
+  display: flex;
+  // padding: 3rem 0 1rem 0;
+
+  h2 {
+    padding-left: 1.5rem;
+  }
+}
+
+.vertical_rule {
+  width: 2px;
+  height: 35rem;
+  background-color: var(--eggplant);
+  margin: 0 5rem;
 }
 
 .inline_link {
   text-decoration: underline;
 }
 
+.banner {
+  width: 100vw;
+  height: 30rem;
+  object-fit: contain;
+}
+
 .email {
-  font-size: 1.8rem;
-  color: var(--tan);
-  width: 75%;
+  font-size: 1.3rem;
+  color: var(--eggplant);
+  width: 50%;
   padding: 5rem 0;
   text-align: center;
 }
