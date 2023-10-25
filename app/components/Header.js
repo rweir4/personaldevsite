@@ -26,7 +26,7 @@ export default function Header() {
         <a href='/'>Home</a>
         <div className={styles.subnav} onClick={toggleSubNav}>
         <div className={styles.subnavbtn}>
-          <p>Development</p>
+          <a>Development</a>
           <FontAwesomeIcon icon={faCaretDown} style={{"--fa-primary-color": "#bf9774", "--fa-secondary-color": "#9c7554", "--fa-secondary-opacity": "0.4",}} />
         </div>
           {subNav && <div className={styles.subnav_content}>
