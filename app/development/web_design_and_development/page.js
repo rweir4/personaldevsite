@@ -3,9 +3,8 @@ import styles from 'app/page.module.scss';
 
 export default function WebDesignAndDevelopment() {
  return (
-   <main className={styles.main}> 
-    <h1 className={styles.page_titles}>Freelance</h1>
-    <h3 className={styles.freelance_subtitle}>Customized Design, Squarespace Hosted</h3>
+   <main className={styles.main}>
+    <h2 className={styles.freelance_title}>Customized Design, Squarespace Hosted</h2>
     <div className={styles.freelance_project}>
       <div>
         <h3 className={styles.freelance_project_title}>Journey Together Counseling Services</h3>
@@ -19,7 +18,7 @@ export default function WebDesignAndDevelopment() {
       </div>
       <img src='/jtcs.png' className={styles.freelance_photo}/>
     </div>
-    <h2 className={styles.freelance_project_title}>Ongoing Projects:</h2>
+    <h2 className={styles.freelance_title}>Ongoing Projects:</h2>
     <div>
       <div className={styles.freelance_project}>
         <div>

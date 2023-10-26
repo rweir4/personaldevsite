@@ -426,9 +426,14 @@
   }
 }
 
-.freelance_subtitle {
-  font-size: 1.5rem;
-  padding: 1rem 0 5rem 0;
+.freelance_title {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 3rem;
+
+  @media screen and (max-width: 900px) {
+    font-size: 1.5em;
+  }
 }
 
 .freelance_project {
@@ -436,11 +441,19 @@
   justify-content: space-between;
   min-height: 30rem;
   width: 100vw;
+  text-align: center;
   background-color: var(--light-creme);
   padding: 5rem 10vw;
 
   div {
     padding-right: 3rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    padding: 0 3rem;
+    div {
+      padding: 0;
+    }
   }
 }
 
@@ -778,15 +791,9 @@
     flex-direction: column;
   }
 
-  .freelance_title {
-    font-size: 2rem;
-    padding-left: 3rem;
-  }
+  // .freelance_title {
 
-  .freelance_subtitle {
-    font-size: 1.2rem;
-    text-align: center;
-  }
+  // }
 
   .freelance_project {
     flex-direction: column;
