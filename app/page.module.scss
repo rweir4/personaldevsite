@@ -41,12 +41,10 @@
 }
 
 .subnavbtn {
-  display: flex;
-  justify-content: right;
-  line-height: 22px;
-
+  margin: 1rem 2rem;
+  
   a {
-    padding: 0;
+    margin: .5rem;
   }
 
   p  {
