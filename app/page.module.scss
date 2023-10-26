@@ -190,6 +190,42 @@
   padding-top: 5rem;
 }
 
+.software_projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.projects_pic {
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.projects_info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  justify-content: center;
+
+  @media screen and (max-width: 900px) {
+    padding: 1rem 0;
+    text-align: center;
+  }
+}
+
 .professional {
   display: flex;
   justify-content: center;
@@ -229,29 +265,9 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    color: var(--dark-grey);
     text-align: center;
     width: 20rem;
   }
-}
-
-
-.logo_left {
-  position: absolute;
-  left: 0px;
-  z-index: -2;
-  height: 30rem;
-  background-color: var(--light-creme);
-  width: 55vw;
-}
-
-.logo_right {
-  position: absolute;
-  right: 0px;
-  z-index: -2;
-  height: 30rem;
-  background-color: var(--light-creme);
-  width: 55vw;
 }
 
 .description_left {
@@ -270,19 +286,9 @@
   align-items: center;
   padding: 5rem;
   font-size: 1.2rem;
-  color: var(--dark-grey);
   text-align: center;
   height: 20rem;
   width: 30rem;
-}
-
-.freelance_title {
-  font-size: 5rem;
-  color: var(--rose);
-
-  &:hover {
-    color: #87746c;
-  }
 }
 
 .logo {
@@ -598,7 +604,6 @@
 }
 
 .heading {
-  color: var(--dark-grey);
   text-align: center;
 
   img {
@@ -612,7 +617,6 @@
 }
 
 .series {
-  color: var(--dark-grey);
   padding-top: 3rem;
   align-items: center;
   display: flex;
@@ -645,19 +649,22 @@
   justify-content: space-between;
 
   button {
-    color: var(--dark-grey);
     width: 8rem;
     height: 3rem;
-    background-color: var(--light-creme);
+    background-color: var(--eggplant);
+    color: var(--light-creme);
     border: none;
     border-radius: 5px;
     margin: 1rem;
+
+    &:hover {
+      filter: brightness(130%);
+    }
   }
 }
 
 .coming_soon {
   text-align: center;
-  color: var(--dark-grey);
   padding-top: 3rem;
 }
 
@@ -774,16 +781,6 @@
   .freelance_title {
     font-size: 2rem;
     padding-left: 3rem;
-  }
-
-  .logo_left {
-    width: 100%;
-    height: 20rem;
-  }    
-  
-  .logo_right {
-    width: 100%;
-    height: 20rem;
   }
 
   .freelance_subtitle {
