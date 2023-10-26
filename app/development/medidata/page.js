@@ -3,7 +3,7 @@ import styles from 'app/page.module.scss';
 export default function Medidata() {
   return (
     <main className={styles.main}>
-      <img src='/medidata.webp' alt='medidata logo' className={styles.logo} />
+      <img src='/medidata.png' alt='medidata logo' className={styles.logo} />
       <h1 className={styles.page_titles}>Medidata Solutions, A Dassault Systemes Company</h1>
       <p className={styles.project_about}>
         <div className={styles.professional_portfolio}>

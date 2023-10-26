@@ -226,38 +226,24 @@
   }
 }
 
-.professional {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-}
+// .professional {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100vw;
+// }
 
 .professional_banner {
   width: 60rem;
   height: 30rem;
 }
 
-.workplaces {
-  position: absolute;
-  z-index: 5;
-
-  img {
-    width: 13rem;
-    margin: 5rem;
-
-    &:nth-of-type(1) {
-      transform: rotate(-5deg)
-    }
-
-    &:nth-of-type(2) {
-      transform: rotate(5deg)
-    }
-  }
-}
-
-.professional_buttons {
+.professional {
   display: flex;
+  flex-direction: column;
+  img {
+    width: 60rem;
+  }
 
   div {
     display: flex;
@@ -759,36 +745,38 @@
       border: none;
     }
   }
-
-  .professional {
-    .secondary_btn {
-      font-size: .9rem;
-      width: 10rem;
-    }
-  }
   
   .professional_title {
     padding: 1rem;
-
+    
     h3 {
       font-size: 1rem;
     }
   }
-
+  
   .professional_banner {
     object-fit: contain;
     width: 23rem;
   }
-
+  
   .workplaces {
     img {
       width: 5rem;
       margin: 2rem;
     }
   }
-
-  .professional_buttons {
+  
+  .professional {
     flex-direction: column;
+
+    img {
+      width: 25rem;
+    }
+
+    .secondary_btn {
+      font-size: .9rem;
+      width: 10rem;
+    }
   }
 
   // .freelance_title {
