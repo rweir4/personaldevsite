@@ -308,9 +308,11 @@
   top: 13rem;
   z-index: 2;
   padding: 1rem;
-  background-color: var(--dark-grey);
+  background-color: var(--eggplant);
+  opacity: .75;
   color: var(--light-creme);
   border-radius: 5px;
+  text-align: center;
 
   &:hover {
     opacity: .9;
@@ -413,12 +415,11 @@
 }
 
 .freelance_title {
-  font-size: 2em;
+  font-size: 1.25em;
   text-align: center;
-  padding-top: 3rem;
 
-  @media screen and (max-width: 900px) {
-    font-size: 1.5em;
+  &:nth-of-type(2) {
+    padding-top: 3rem;
   }
 }
 
@@ -445,17 +446,18 @@
 
 .freelance_project_title {
   font-size: 1.5rem; 
-  padding: 5rem 0;
+  padding: 6rem 0 1rem 0;
 }
 
 .freelance_project_description {
   font-size: 1.3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 .freelance_photo {
   max-height: 30rem;
   border-radius: 3px;
+  object-fit: contain;
 }
 
 .github_link {
@@ -778,10 +780,6 @@
       width: 10rem;
     }
   }
-
-  // .freelance_title {
-
-  // }
 
   .freelance_project {
     flex-direction: column;

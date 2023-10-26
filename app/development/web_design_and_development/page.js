@@ -4,6 +4,7 @@ import styles from 'app/page.module.scss';
 export default function WebDesignAndDevelopment() {
  return (
    <main className={styles.main}>
+    <h1>Web Design & Development</h1>
     <h2 className={styles.freelance_title}>Customized Design, Squarespace Hosted</h2>
     <div className={styles.freelance_project}>
       <div>
