@@ -42,7 +42,7 @@
 
 .subnavbtn {
   margin: 1rem 2rem;
-  
+
   a {
     margin: .5rem;
   }
@@ -514,6 +514,10 @@
   padding: 3rem;
   align-items: center;
   width: 80%;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+  }
 }
 
 .about_pic {
@@ -523,10 +527,8 @@
   overflow: hidden;
 
   @media screen and (max-width: 900px) {
-    width: 8rem;
-    height: 8rem;
-    margin: auto;
-    margin-bottom: 3rem;
+    width: 10rem;
+    height: 15rem;
   }
 }
 
@@ -536,6 +538,10 @@
   justify-content: center;
   line-height: 15px;
   width: 60%;
+
+  @media screen and (max-width: 1000px) {
+    width: 20rem;
+  }
 
   p {
     line-height: 30px;
@@ -553,10 +559,10 @@
 
 .hat {
   display: flex;
-  // padding: 3rem 0 1rem 0;
 
   h2 {
     padding-left: 1.5rem;
+    line-height: 25px;
   }
 }
 
@@ -564,7 +570,13 @@
   width: 2px;
   height: 35rem;
   background-color: var(--eggplant);
-  margin: 0 5rem;
+  margin: 0 5%;
+
+  @media screen and (max-width: 1000px) {
+    height: 2px;
+    width: 100vw;
+    margin: 3rem 0;
+  }
 }
 
 .inline_link {
